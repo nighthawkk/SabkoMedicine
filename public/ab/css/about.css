@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+
+body{
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.team a{
+  text-decoration: none;
+}
+.team a.darken {
+    background: none;
+    padding: 0;
+  }
+
+.team a.darken img {
+    
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.team a.darken:hover img {
+    opacity: 0.8;
+            
+}
+.back{
+  margin-top: 30px;
+
+}
+.back h1{
+  margin-top: -250px;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 3px;  
+  color:#044F67;
+  }
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #044F67;
+    color: #044F67;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+    .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+.back {
+  height:100vh;
+  margin-bottom: 0;
+  background-image: url('/img/back3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    /* Chrome, Safari, Opera */ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team{
+  background-color: #FFF;
+}
+.teamcustom{
+  height:100%;
+  margin-top: 20px;
+  border:none;
+  background-color: transparent;
+  box-shadow:none;
+} 
+.happy{
+	height:100%;
+	padding-top: 120px;
+  background-image: url('/img/happiness.jpg');
+  background-attachment: fixed;
+  background-position: center;   
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #FFF;
+}
+.one{
+  background-color: #198b5c;
+  color: #FFF;
+}
+.two{
+	background-color: #198b5c;
+}
